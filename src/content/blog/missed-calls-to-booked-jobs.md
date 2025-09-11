@@ -1,13 +1,11 @@
 ---
-title: "Missed Calls → Booked Jobs (AI Voice Agent — Quick Read)"
+title: "Missed Calls to Booked Jobs (AI Voice Agent — Quick Read)"
 pubDate: 2025-09-11
 updatedDate: 2025-09-11
 tags: ["hvac","ops","ai","answeringservice"]
 description: HVAC Shops can convert Missed Calls into Booked Jobs
 draft: false
 ---
-
-# Missed Calls → Booked Jobs (AI Voice Agent — Quick Read)
 
 > **Missed call ≠ missed money.** With a voice agent that answers every ring and books real appointments, you turn chaos into calendar.
 
@@ -88,4 +86,4 @@ You don’t need a spreadsheet to see it.
 
 Run it for **7 days**. If you don’t see more booked jobs and fewer voicemails, turn it off. If you do, keep it and tighten the scripts over time.
 
-**Next step:** Plug in your name, ZIPs, and hours. Turn missed calls into booked jobs this week.
+**Next step:** Call 773-273-9335  or email @ solartechadvisers@gmail.com
