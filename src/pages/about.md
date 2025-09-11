@@ -1,15 +1,9 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
-import Layout from '../layouts/BlogPost.astro';
+title: "About Smart Call Decline"
+layout: ../layouts/BaseLayout.astro   # same layout your homepage uses
 ---
 
-<Layout
-	title="About Smart Call Decline"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
-	heroImage={AboutHeroImage}
->
-	# The History of Smart Call Decline (SCD)
+# The History of Smart Call Decline (SCD)
 
 ## May 2025 — The spark during my MBA project
 
@@ -70,4 +64,4 @@ Along the way, a mentor told me this was a **worthy problem to solve**—clear p
 From MBA insight → field interviews → an **SMS catcher** → a **Voice Agent** that books and documents.
 **Smart Call Decline** turns a missed ring into a **captured lead and a scheduled next step**—without asking contractors to stop doing the job they’re already on.
 
-</Layout>
+
