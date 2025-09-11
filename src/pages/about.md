@@ -1,9 +1,8 @@
 ---
-title: "About Smart Call Decline"
+title: "The History of Smart Call Decline (SCD)"
 layout: ../layouts/BaseLayout.astro   # same layout your homepage uses
 ---
 
-# The History of Smart Call Decline (SCD)
 
 ## May 2025 — The spark during my MBA project
 
