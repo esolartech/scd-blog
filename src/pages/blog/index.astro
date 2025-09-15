@@ -90,7 +90,7 @@ const posts = (await getCollection('blog')).sort(
 		<Header />
 		<main>
 			<section>
-				<ul>
+<ul>
   {posts.map((post) => (
     <li>
       <a href={`/blog/${post.slug}/`}>
@@ -110,6 +110,7 @@ const posts = (await getCollection('blog')).sort(
     </li>
   ))}
 </ul>
+
 
 			</section>
 		</main>
