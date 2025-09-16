@@ -1,30 +1,26 @@
 ---
-import Layout from '../layouts/BaseLayout.astro'      // or '../layouts/BaseLayout.astro'
-import { getCollection } from 'astro:content'
+import Layout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
 
 const posts = (await getCollection('blog'))
   .sort((a,b) => +new Date(b.data.pubDate) - +new Date(a.data.pubDate))
-  .slice(0,5) // show latest 5
+  .slice(0, 5);
+
+const toSlug = (p) => p.slug ?? p.id.replace(/\.(md|mdx)$/, '');
 ---
 <Layout title="Smart Call Decline Blog" description="Turning missed calls into booked jobs.">
   <main class="container prose mx-auto">
     <h1>Smart Call Decline — Blog</h1>
-    <p>Real playbooks for HVAC & electrical owners: fewer missed calls, more booked jobs, cleaner ops.</p>
-
-    <p>
-      <a href="/about/">About</a> ·
-      <a href="/blog/">All posts</a> ·
-      <a href="https://smartcalldecline.com">Product</a>
-    </p>
 
     <h2>Latest posts</h2>
     <ul>
-      {posts.map(p => (
+      {posts.map((p) => (
         <li>
-          <a href={`/blog/${p.slug}/`}>{p.data.title}</a>
+          <a href={`/blog/${toSlug(p)}/`}>{p.data.title}</a>
           {p.data.description && ` — ${p.data.description}`}
         </li>
       ))}
     </ul>
   </main>
 </Layout>
+

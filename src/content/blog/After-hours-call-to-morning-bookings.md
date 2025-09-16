@@ -1,5 +1,5 @@
 ---
-title: " After Hours Calls to Morning Bookings  (AI Voice Agent — Quick Read)"
+title: "After Hours Calls to Morning Bookings (AI Voice Agent — Quick Read)"
 pubDate: 2025-09-15
 updatedDate: 2025-09-15
 tags: ["hvac","ops","ai","answeringservice"]
