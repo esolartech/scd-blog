@@ -7,7 +7,6 @@ description: HVAC Shops can convert After-Hours Call into Morning Bookings
 draft: false
 ---
 
-# After-Hours Calls → Morning Bookings  
 **The Contractor’s Playbook for Capturing Night & Weekend Jobs**  
 *Reading time: 2–3 minutes*
 
