@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
+const toSlug = (p) => p.slug ?? p.id.replace(/\.(md|mdx)$/, '')
   return posts.map((post) => ({
     params: { slug: post.slug },   // ← must be slug
     props: { post }
